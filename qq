@@ -1,0 +1,11 @@
+$ git clone https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu.git
+
+$ cd  deepin-wine-for-ubuntu 
+
+$ ./install.sh
+
+$ wget -c  http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.im/
+
+$ deepin.com.qq.im_8.9.19983deepin23_i386.deb
+
+$ sudo dpkg -i  deepin.com.qq.im_8.9.19983deepin23_i386.deb

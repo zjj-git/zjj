@@ -1,0 +1,17 @@
+创建快捷方式：
+gedit navicat.desktop
+
+复制：
+[Desktop Entry]
+Encoding=UTF-8
+Name=Navicat Premium
+Comment=The Smarter Way to manage dadabase
+Exec=/bin/sh "/home/yangkui/software/navicat112_premium_cs_x64/start_navicat"  # 应用安装路径
+Icon=/home/yangkui/software/navicat112_premium_cs_x64/navicat.png  # 应用图片路径
+Categories=Application;Database;MySQL;navicat
+Version=1.0
+Type=Application
+Terminal=0
+
+
+sudo chmod 777 navicat.desktop
